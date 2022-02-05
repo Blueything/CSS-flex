@@ -1,0 +1,101 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	margin-bottom: 20px; 
+}
+section{
+	margin: 20px;
+	margin-bottom: 70px;
+	text-align: center;
+	position: relative;
+}
+.container div:nth-child(odd){
+	background: green;
+	
+}
+.container div:nth-child(even){
+	background: orange;
+	
+}
+.container div{
+	padding: 28px;
+	font-size: 28px;
+	margin: 4px;
+	text-align: center;
+
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+}
+/*--------------------------------*/
+
+.container2 div:nth-child(odd){
+	background: green;
+	
+}
+.container2 div:nth-child(even){
+	background: orange;
+	
+}
+.container2 div{
+	padding: 28px;
+	font-size: 28px;
+	margin: 4px;
+	text-align: center;
+
+}
+
+.container2{
+	display: block;
+
+}
+
+/*--------------------------------*/
+
+.container3 div:nth-child(odd){
+	background: green;
+	
+}
+.container3 div:nth-child(even){
+	background: orange;
+	
+}
+.container3 div{
+	padding: 28px;
+	font-size: 28px;
+	margin: 4px;
+	text-align: center;
+
+}
+
+.container3{
+	display: inline-block;
+
+}
+/*--------------------------------*/
+
+.container4 div:nth-child(odd){
+	background: green;
+	
+}
+.container4 div:nth-child(even){
+	background: orange;
+	
+}
+.container4 div{
+	padding: 28px;
+	font-size: 28px;
+	margin: 4px;
+	text-align: center;
+
+}
+
+.container4{
+	display: flex;
+	flex-direction: column-reverse;
+}
