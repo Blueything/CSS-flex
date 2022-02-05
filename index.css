@@ -29,8 +29,11 @@ section{
 }
 
 .container{
+	border: 1px solid black;
 	display: flex;
+
 	justify-content: center;
+
 }
 /*--------------------------------*/
 
@@ -99,3 +102,78 @@ section{
 	display: flex;
 	flex-direction: column-reverse;
 }
+
+/*--------------------------------*/
+
+.container5 div:nth-child(odd){
+	background: green;
+	
+}
+.container5 div:nth-child(even){
+	background: orange;
+	
+}
+.container5 div{
+	padding: 28px;
+	font-size: 28px;
+	margin: 4px;
+	text-align: center;
+
+}
+
+.container5{
+	display: flex;
+	justify-content: flex-end;
+	border: 1px solid black;
+
+}
+/*--------------------------------*/
+/*--------------------------------*/
+
+.container6 div:nth-child(odd){
+	background: green;
+	
+}
+.container6 div:nth-child(even){
+	background: orange;
+	
+}
+.container6 div{
+	padding: 28px;
+	font-size: 28px;
+	margin: 4px;
+	text-align: center;
+
+}
+
+.container6{
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
+}
+/*--------------------------------*/
+/*--------------------------------*/
+
+.container7 div:nth-child(odd){
+	background: green;
+	
+}
+.container7 div:nth-child(even){
+	background: orange;
+	order: 1;
+}
+.container7 div{
+	padding: 28px;
+	font-size: 28px;
+	margin: 4px;
+	text-align: center;
+
+}
+
+.container7{
+	display: flex;
+	justify-content: space-around;
+	
+	border: 1px solid black;
+}
+/*--------------------------------*/
